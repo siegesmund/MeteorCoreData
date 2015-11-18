@@ -1,0 +1,3 @@
+[submodule "SwiftDDP"]
+	path = SwiftDDP
+	url = https://github.com/siegesmund/SwiftDDP.git

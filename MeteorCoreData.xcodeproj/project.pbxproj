@@ -7,27 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D0B1C9D51BFD2E4F0022312F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B1C9D41BFD2E4F0022312F /* AppDelegate.swift */; };
-		D0B1C9D71BFD2E4F0022312F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B1C9D61BFD2E4F0022312F /* ViewController.swift */; };
-		D0B1C9DA1BFD2E4F0022312F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B1C9D81BFD2E4F0022312F /* Main.storyboard */; };
-		D0B1C9DD1BFD2E4F0022312F /* MeteorCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0B1C9DB1BFD2E4F0022312F /* MeteorCoreData.xcdatamodeld */; };
-		D0B1C9DF1BFD2E4F0022312F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B1C9DE1BFD2E4F0022312F /* Assets.xcassets */; };
-		D0B1C9E21BFD2E4F0022312F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B1C9E01BFD2E4F0022312F /* LaunchScreen.storyboard */; };
+		D0B1CA0F1BFD32CB0022312F /* MeteorCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = D0B1CA0E1BFD32CB0022312F /* MeteorCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D0B1C9FD1BFD30960022312F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0B1C9F81BFD30950022312F /* SwiftDDP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D02A71DC1BBEFBCA00940C17;
+			remoteInfo = SwiftDDP;
+		};
+		D0B1C9FF1BFD30960022312F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0B1C9F81BFD30950022312F /* SwiftDDP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D02A72531BBF07AF00940C17;
+			remoteInfo = SwiftDDPTests;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		D0B1C9D11BFD2E4F0022312F /* MeteorCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeteorCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0B1C9D41BFD2E4F0022312F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0B1C9D61BFD2E4F0022312F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D0B1C9D91BFD2E4F0022312F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D0B1C9DC1BFD2E4F0022312F /* MeteorCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeteorCoreData.xcdatamodel; sourceTree = "<group>"; };
-		D0B1C9DE1BFD2E4F0022312F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D0B1C9E11BFD2E4F0022312F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0759F06F6896C9531DE054D3 /* Pods-MeteorCoreData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeteorCoreData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeteorCoreData/Pods-MeteorCoreData.debug.xcconfig"; sourceTree = "<group>"; };
+		138C10623E0A82645C53B4B9 /* Pods_MeteorCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeteorCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B1C9E31BFD2E4F0022312F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B1C9E91BFD2EB90022312F /* MeteorCoreDataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteorCoreDataTableViewController.swift; sourceTree = "<group>"; };
+		D0B1C9EA1BFD2EB90022312F /* MeteorCoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteorCoreDataStack.swift; sourceTree = "<group>"; };
+		D0B1C9EB1BFD2EB90022312F /* MeteorCoreDataCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteorCoreDataCollection.swift; sourceTree = "<group>"; };
+		D0B1C9EE1BFD2EB90022312F /* MeteorCoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteorCoreData.swift; sourceTree = "<group>"; };
+		D0B1C9EF1BFD2EB90022312F /* MeteorCollectionChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteorCollectionChange.swift; sourceTree = "<group>"; };
+		D0B1C9F01BFD2EB90022312F /* CoreDataExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataExtensions.swift; sourceTree = "<group>"; };
+		D0B1C9F81BFD30950022312F /* SwiftDDP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftDDP.xcodeproj; path = SwiftDDP/SwiftDDP.xcodeproj; sourceTree = "<group>"; };
+		D0B1CA0C1BFD32CB0022312F /* MeteorCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MeteorCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B1CA0E1BFD32CB0022312F /* MeteorCoreData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeteorCoreData.h; sourceTree = "<group>"; };
+		D0B1CA101BFD32CB0022312F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5F3BEE41B3ECEF0DCE0E253 /* Pods-MeteorCoreData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeteorCoreData.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeteorCoreData/Pods-MeteorCoreData.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D0B1C9CE1BFD2E4F0022312F /* Frameworks */ = {
+		D0B1CA081BFD32CB0022312F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,18 +55,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		171B8B5A3B77F234B8CD34B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0759F06F6896C9531DE054D3 /* Pods-MeteorCoreData.debug.xcconfig */,
+				E5F3BEE41B3ECEF0DCE0E253 /* Pods-MeteorCoreData.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A498E57DD978A832CF376A29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				138C10623E0A82645C53B4B9 /* Pods_MeteorCoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D0B1C9C81BFD2E4F0022312F = {
 			isa = PBXGroup;
 			children = (
+				D0B1C9F81BFD30950022312F /* SwiftDDP.xcodeproj */,
 				D0B1C9D31BFD2E4F0022312F /* MeteorCoreData */,
+				D0B1CA0D1BFD32CB0022312F /* MeteorCoreData */,
 				D0B1C9D21BFD2E4F0022312F /* Products */,
+				171B8B5A3B77F234B8CD34B8 /* Pods */,
+				A498E57DD978A832CF376A29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		D0B1C9D21BFD2E4F0022312F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D0B1C9D11BFD2E4F0022312F /* MeteorCoreData.app */,
+				D0B1CA0C1BFD32CB0022312F /* MeteorCoreData.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,27 +95,57 @@
 		D0B1C9D31BFD2E4F0022312F /* MeteorCoreData */ = {
 			isa = PBXGroup;
 			children = (
-				D0B1C9D41BFD2E4F0022312F /* AppDelegate.swift */,
-				D0B1C9D61BFD2E4F0022312F /* ViewController.swift */,
-				D0B1C9D81BFD2E4F0022312F /* Main.storyboard */,
-				D0B1C9DE1BFD2E4F0022312F /* Assets.xcassets */,
-				D0B1C9E01BFD2E4F0022312F /* LaunchScreen.storyboard */,
+				D0B1C9E91BFD2EB90022312F /* MeteorCoreDataTableViewController.swift */,
+				D0B1C9EA1BFD2EB90022312F /* MeteorCoreDataStack.swift */,
+				D0B1C9EB1BFD2EB90022312F /* MeteorCoreDataCollection.swift */,
+				D0B1C9EE1BFD2EB90022312F /* MeteorCoreData.swift */,
+				D0B1C9EF1BFD2EB90022312F /* MeteorCollectionChange.swift */,
+				D0B1C9F01BFD2EB90022312F /* CoreDataExtensions.swift */,
 				D0B1C9E31BFD2E4F0022312F /* Info.plist */,
-				D0B1C9DB1BFD2E4F0022312F /* MeteorCoreData.xcdatamodeld */,
+			);
+			path = MeteorCoreData;
+			sourceTree = "<group>";
+		};
+		D0B1C9F91BFD30950022312F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0B1C9FE1BFD30960022312F /* SwiftDDP.framework */,
+				D0B1CA001BFD30960022312F /* SwiftDDPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0B1CA0D1BFD32CB0022312F /* MeteorCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D0B1CA0E1BFD32CB0022312F /* MeteorCoreData.h */,
+				D0B1CA101BFD32CB0022312F /* Info.plist */,
 			);
 			path = MeteorCoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		D0B1CA091BFD32CB0022312F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B1CA0F1BFD32CB0022312F /* MeteorCoreData.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		D0B1C9D01BFD2E4F0022312F /* MeteorCoreData */ = {
+		D0B1CA0B1BFD32CB0022312F /* MeteorCoreData */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D0B1C9E61BFD2E4F0022312F /* Build configuration list for PBXNativeTarget "MeteorCoreData" */;
+			buildConfigurationList = D0B1CA111BFD32CB0022312F /* Build configuration list for PBXNativeTarget "MeteorCoreData" */;
 			buildPhases = (
-				D0B1C9CD1BFD2E4F0022312F /* Sources */,
-				D0B1C9CE1BFD2E4F0022312F /* Frameworks */,
-				D0B1C9CF1BFD2E4F0022312F /* Resources */,
+				D0B1CA071BFD32CB0022312F /* Sources */,
+				D0B1CA081BFD32CB0022312F /* Frameworks */,
+				D0B1CA091BFD32CB0022312F /* Headers */,
+				D0B1CA0A1BFD32CB0022312F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,8 +153,8 @@
 			);
 			name = MeteorCoreData;
 			productName = MeteorCoreData;
-			productReference = D0B1C9D11BFD2E4F0022312F /* MeteorCoreData.app */;
-			productType = "com.apple.product-type.application";
+			productReference = D0B1CA0C1BFD32CB0022312F /* MeteorCoreData.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -93,10 +162,11 @@
 		D0B1C9C91BFD2E4F0022312F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Peter Siegesmund";
 				TargetAttributes = {
-					D0B1C9D01BFD2E4F0022312F = {
+					D0B1CA0B1BFD32CB0022312F = {
 						CreatedOnToolsVersion = 7.0;
 					};
 				};
@@ -112,57 +182,55 @@
 			mainGroup = D0B1C9C81BFD2E4F0022312F;
 			productRefGroup = D0B1C9D21BFD2E4F0022312F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D0B1C9F91BFD30950022312F /* Products */;
+					ProjectRef = D0B1C9F81BFD30950022312F /* SwiftDDP.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				D0B1C9D01BFD2E4F0022312F /* MeteorCoreData */,
+				D0B1CA0B1BFD32CB0022312F /* MeteorCoreData */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		D0B1C9FE1BFD30960022312F /* SwiftDDP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftDDP.framework;
+			remoteRef = D0B1C9FD1BFD30960022312F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D0B1CA001BFD30960022312F /* SwiftDDPTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftDDPTests.xctest;
+			remoteRef = D0B1C9FF1BFD30960022312F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
-		D0B1C9CF1BFD2E4F0022312F /* Resources */ = {
+		D0B1CA0A1BFD32CB0022312F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0B1C9E21BFD2E4F0022312F /* LaunchScreen.storyboard in Resources */,
-				D0B1C9DF1BFD2E4F0022312F /* Assets.xcassets in Resources */,
-				D0B1C9DA1BFD2E4F0022312F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D0B1C9CD1BFD2E4F0022312F /* Sources */ = {
+		D0B1CA071BFD32CB0022312F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0B1C9D71BFD2E4F0022312F /* ViewController.swift in Sources */,
-				D0B1C9DD1BFD2E4F0022312F /* MeteorCoreData.xcdatamodeld in Sources */,
-				D0B1C9D51BFD2E4F0022312F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		D0B1C9D81BFD2E4F0022312F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0B1C9D91BFD2E4F0022312F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D0B1C9E01BFD2E4F0022312F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0B1C9E11BFD2E4F0022312F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D0B1C9E41BFD2E4F0022312F /* Debug */ = {
@@ -248,25 +316,41 @@
 			};
 			name = Release;
 		};
-		D0B1C9E71BFD2E4F0022312F /* Debug */ = {
+		D0B1CA121BFD32CB0022312F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = MeteorCoreData/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.houndfish.MeteorCoreData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		D0B1C9E81BFD2E4F0022312F /* Release */ = {
+		D0B1CA131BFD32CB0022312F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = MeteorCoreData/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.houndfish.MeteorCoreData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -282,28 +366,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D0B1C9E61BFD2E4F0022312F /* Build configuration list for PBXNativeTarget "MeteorCoreData" */ = {
+		D0B1CA111BFD32CB0022312F /* Build configuration list for PBXNativeTarget "MeteorCoreData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D0B1C9E71BFD2E4F0022312F /* Debug */,
-				D0B1C9E81BFD2E4F0022312F /* Release */,
+				D0B1CA121BFD32CB0022312F /* Debug */,
+				D0B1CA131BFD32CB0022312F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		D0B1C9DB1BFD2E4F0022312F /* MeteorCoreData.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				D0B1C9DC1BFD2E4F0022312F /* MeteorCoreData.xcdatamodel */,
-			);
-			currentVersion = D0B1C9DC1BFD2E4F0022312F /* MeteorCoreData.xcdatamodel */;
-			path = MeteorCoreData.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = D0B1C9C91BFD2E4F0022312F /* Project object */;
 }
