@@ -11,23 +11,6 @@
 		D0B1CA0F1BFD32CB0022312F /* MeteorCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = D0B1CA0E1BFD32CB0022312F /* MeteorCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D0B1C9FD1BFD30960022312F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D0B1C9F81BFD30950022312F /* SwiftDDP.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D02A71DC1BBEFBCA00940C17;
-			remoteInfo = SwiftDDP;
-		};
-		D0B1C9FF1BFD30960022312F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D0B1C9F81BFD30950022312F /* SwiftDDP.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D02A72531BBF07AF00940C17;
-			remoteInfo = SwiftDDPTests;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		0759F06F6896C9531DE054D3 /* Pods-MeteorCoreData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeteorCoreData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeteorCoreData/Pods-MeteorCoreData.debug.xcconfig"; sourceTree = "<group>"; };
 		138C10623E0A82645C53B4B9 /* Pods_MeteorCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeteorCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,7 +21,6 @@
 		D0B1C9EE1BFD2EB90022312F /* MeteorCoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteorCoreData.swift; sourceTree = "<group>"; };
 		D0B1C9EF1BFD2EB90022312F /* MeteorCollectionChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteorCollectionChange.swift; sourceTree = "<group>"; };
 		D0B1C9F01BFD2EB90022312F /* CoreDataExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataExtensions.swift; sourceTree = "<group>"; };
-		D0B1C9F81BFD30950022312F /* SwiftDDP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftDDP.xcodeproj; path = SwiftDDP/SwiftDDP.xcodeproj; sourceTree = "<group>"; };
 		D0B1CA0C1BFD32CB0022312F /* MeteorCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MeteorCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B1CA0E1BFD32CB0022312F /* MeteorCoreData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeteorCoreData.h; sourceTree = "<group>"; };
 		E5F3BEE41B3ECEF0DCE0E253 /* Pods-MeteorCoreData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeteorCoreData.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeteorCoreData/Pods-MeteorCoreData.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,7 +58,6 @@
 		D0B1C9C81BFD2E4F0022312F = {
 			isa = PBXGroup;
 			children = (
-				D0B1C9F81BFD30950022312F /* SwiftDDP.xcodeproj */,
 				D0B1C9D31BFD2E4F0022312F /* MeteorCoreData */,
 				D0B1C9D21BFD2E4F0022312F /* Products */,
 				171B8B5A3B77F234B8CD34B8 /* Pods */,
@@ -105,15 +86,6 @@
 				D0B1C9E31BFD2E4F0022312F /* Info.plist */,
 			);
 			path = MeteorCoreData;
-			sourceTree = "<group>";
-		};
-		D0B1C9F91BFD30950022312F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D0B1C9FE1BFD30960022312F /* SwiftDDP.framework */,
-				D0B1CA001BFD30960022312F /* SwiftDDPTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,35 +148,12 @@
 			mainGroup = D0B1C9C81BFD2E4F0022312F;
 			productRefGroup = D0B1C9D21BFD2E4F0022312F /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = D0B1C9F91BFD30950022312F /* Products */;
-					ProjectRef = D0B1C9F81BFD30950022312F /* SwiftDDP.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				D0B1CA0B1BFD32CB0022312F /* MeteorCoreData */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		D0B1C9FE1BFD30960022312F /* SwiftDDP.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftDDP.framework;
-			remoteRef = D0B1C9FD1BFD30960022312F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D0B1CA001BFD30960022312F /* SwiftDDPTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SwiftDDPTests.xctest;
-			remoteRef = D0B1C9FF1BFD30960022312F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D0B1CA0A1BFD32CB0022312F /* Resources */ = {
