@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C59902FF6079D1534C116BAC /* Pods_MeteorCoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138C10623E0A82645C53B4B9 /* Pods_MeteorCoreData.framework */; };
 		D0B1CA0F1BFD32CB0022312F /* MeteorCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = D0B1CA0E1BFD32CB0022312F /* MeteorCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -40,7 +41,6 @@
 		D0B1C9F81BFD30950022312F /* SwiftDDP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftDDP.xcodeproj; path = SwiftDDP/SwiftDDP.xcodeproj; sourceTree = "<group>"; };
 		D0B1CA0C1BFD32CB0022312F /* MeteorCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MeteorCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B1CA0E1BFD32CB0022312F /* MeteorCoreData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeteorCoreData.h; sourceTree = "<group>"; };
-		D0B1CA101BFD32CB0022312F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5F3BEE41B3ECEF0DCE0E253 /* Pods-MeteorCoreData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeteorCoreData.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeteorCoreData/Pods-MeteorCoreData.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C59902FF6079D1534C116BAC /* Pods_MeteorCoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +78,6 @@
 			children = (
 				D0B1C9F81BFD30950022312F /* SwiftDDP.xcodeproj */,
 				D0B1C9D31BFD2E4F0022312F /* MeteorCoreData */,
-				D0B1CA0D1BFD32CB0022312F /* MeteorCoreData */,
 				D0B1C9D21BFD2E4F0022312F /* Products */,
 				171B8B5A3B77F234B8CD34B8 /* Pods */,
 				A498E57DD978A832CF376A29 /* Frameworks */,
@@ -101,6 +101,7 @@
 				D0B1C9EE1BFD2EB90022312F /* MeteorCoreData.swift */,
 				D0B1C9EF1BFD2EB90022312F /* MeteorCollectionChange.swift */,
 				D0B1C9F01BFD2EB90022312F /* CoreDataExtensions.swift */,
+				D0B1CA0E1BFD32CB0022312F /* MeteorCoreData.h */,
 				D0B1C9E31BFD2E4F0022312F /* Info.plist */,
 			);
 			path = MeteorCoreData;
@@ -113,15 +114,6 @@
 				D0B1CA001BFD30960022312F /* SwiftDDPTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D0B1CA0D1BFD32CB0022312F /* MeteorCoreData */ = {
-			isa = PBXGroup;
-			children = (
-				D0B1CA0E1BFD32CB0022312F /* MeteorCoreData.h */,
-				D0B1CA101BFD32CB0022312F /* Info.plist */,
-			);
-			path = MeteorCoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,10 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0B1CA111BFD32CB0022312F /* Build configuration list for PBXNativeTarget "MeteorCoreData" */;
 			buildPhases = (
+				A71D5151F88A69D504BEE66E /* Check Pods Manifest.lock */,
 				D0B1CA071BFD32CB0022312F /* Sources */,
 				D0B1CA081BFD32CB0022312F /* Frameworks */,
 				D0B1CA091BFD32CB0022312F /* Headers */,
 				D0B1CA0A1BFD32CB0022312F /* Resources */,
+				3608120DB3394DB2A0939AA4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,6 +215,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3608120DB3394DB2A0939AA4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeteorCoreData/Pods-MeteorCoreData-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A71D5151F88A69D504BEE66E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D0B1CA071BFD32CB0022312F /* Sources */ = {
@@ -318,6 +345,7 @@
 		};
 		D0B1CA121BFD32CB0022312F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0759F06F6896C9531DE054D3 /* Pods-MeteorCoreData.debug.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -337,6 +365,7 @@
 		};
 		D0B1CA131BFD32CB0022312F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F3BEE41B3ECEF0DCE0E253 /* Pods-MeteorCoreData.release.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -373,6 +402,7 @@
 				D0B1CA131BFD32CB0022312F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
