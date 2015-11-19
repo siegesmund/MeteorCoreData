@@ -15,7 +15,7 @@ s.social_media_url = 'https://twitter.com/psiegesmund'
 s.platform     = :ios, '8.0'
 s.requires_arc = true
 
-s.source_files = 'MeteorCoreData/*'
+s.source_files = 'MeteorCoreData/**/*'
 
 s.dependency 'SwiftDDP'
 s.dependency 'XCGLogger'
