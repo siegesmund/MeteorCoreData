@@ -9,7 +9,7 @@ DESC
 s.homepage         = "https://github.com/siegesmund/MeteorCoreData"
 s.license          = 'MIT'
 s.author           = { "Peter Siegesmund" => "peter.siegesmund@icloud.com" }
-s.source           = { :git => "https://github.com/siegesmund/SwiftDDP.git", :tag => s.version.to_s }
+s.source           = { :git => "https://github.com/siegesmund/MeteorCoreData.git", :tag => s.version.to_s }
 s.social_media_url = 'https://twitter.com/psiegesmund'
 
 s.platform     = :ios, '8.0'
